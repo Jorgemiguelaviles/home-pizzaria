@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a{color:black;
+ font-size: 1.5rem;
+ padding:10px;
+ font-family: 'Itim', cursive;
+font-family: 'Share Tech', sans-serif;}
+
+a:link{color:#ffffff;}
+a:visited{color:#ffffff;}
+a:hover{color:black;}
+
+
+.cabecalho{
+  background: blue;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  height:8rem;
+}
+.acesso{
+ 
+  width: auto;
+  display:flex;
+  justify-content: space-around;
+}
+.pesquiar{
+  font-size: 2rem;
+          width: 60%;
+}
+
+
+
+.banner{width: 100%;}
+
+.texto{
+  width:80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.titulo{font-size:4rem;
+       text-align:center;
+       padding:05%;}
+
+.descricao{
+  font-size:2rem;
+  text-align:center;
+  padding:05%;}
+
+
+.principal{
+  background: yellow;
+}
+
+.rodape{
+  background: blue;
+ text-align: center;
+  
+}
+
+.contato{text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:column;       
+  align-items: center;
+  justify-content: space-evenly;}
+
+.nome{font-size: 2rem;
+      width: 60%;
+     }
+
+.mensagem{font-size: 2rem;
+          width: 60%;
+         }
+
+.enviar{font-size: 2rem;
+        width: 20%;}
